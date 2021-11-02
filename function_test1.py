@@ -1,5 +1,5 @@
 #function_test1.py
-
+"""
 print("함수정의")
 def setValue(newValue):
     x=newValue
@@ -22,6 +22,7 @@ def swap(x,y):
     return y, x
 print("함수호출")
 print(swap(4,7))
+"""
 
 
 print("intersect 함수 정의")
@@ -36,3 +37,5 @@ def intersect(prelist, postlist):
 
 rstinter=intersect("HAM","SPAM")
 print("함수호출", rstinter)
+
+
