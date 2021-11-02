@@ -13,5 +13,8 @@ print(device)
 device2=device
 print(device2)
 device2["gram"]=40
-print(device2,id(device),id(device2),device)
+print(device2)
+print(id(device))
+print(id(device2))
+print(device)
 

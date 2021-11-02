@@ -1,16 +1,39 @@
 #DemoDict2.py
 
 
-tel={"young":4708,"namkung":4133}
+#tel={"young":4708,"namkung":4133}
 
-phone= tel
+#phone= tel
 
-print(tel)
+#print(tel)
 
 #bool
-isRight=True
-print(type(isRight))
-x=5
-y=5
-print(x==y)
-print(x!=y)
+#isRight=True
+#print(type(isRight))
+
+#논리식에서 비교 연산자를 사용
+#x=5
+#y=5
+#print(x==y)
+#print(x!=y)
+#print(2>1)
+#print(5/2)
+#print(5//2)
+#print(5%2)
+
+#and는 ~이고, ~이면서
+#or 연산자는 ~이거나
+#print(True and True and True)
+#print(True and True and False)
+#print(True or False or False)
+
+#파이썬의 판단 근거
+
+print(bool(0))
+print(bool())
+print(bool(1))
+print(bool(-2))
+print(bool(3.14))
+print(bool(""))
+print(bool("demo"))
+print(bool([1,2,3]))
