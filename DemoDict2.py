@@ -29,11 +29,27 @@
 
 #파이썬의 판단 근거
 
-print(bool(0))
-print(bool())
-print(bool(1))
-print(bool(-2))
-print(bool(3.14))
-print(bool(""))
-print(bool("demo"))
-print(bool([1,2,3]))
+#print(bool(0))
+#print(bool())
+#print(bool(1))
+#print(bool(-2))
+#print(bool(3.14))
+#print(bool(""))
+#print(bool("demo"))
+#print(bool([1,2,3]))
+
+
+a=[1,2,3]
+b=a
+a[0]=38
+print(a)
+print(b)
+print(id(a),id(b))
+
+a=[2,3,4]
+b=a[:]
+a[1]=24
+print(a)
+print(b)
+print(id(a),id(b))
+
