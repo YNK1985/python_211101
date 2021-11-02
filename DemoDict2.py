@@ -39,17 +39,25 @@
 #print(bool([1,2,3]))
 
 
+#a=[1,2,3]
+#b=a
+#a[0]=38
+#print(a)
+#print(b)
+#print(id(a),id(b))
+
+#a=[2,3,4]
+#b=a[:]
+#a[1]=24
+#print(a)
+#print(b)
+#print(id(a),id(b))
+
+import copy
 a=[1,2,3]
-b=a
+b=copy.deepcopy(a)
 a[0]=38
 print(a)
 print(b)
-print(id(a),id(b))
 
-a=[2,3,4]
-b=a[:]
-a[1]=24
-print(a)
-print(b)
-print(id(a),id(b))
 
