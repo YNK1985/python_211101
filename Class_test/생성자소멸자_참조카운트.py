@@ -9,8 +9,8 @@ class MyClass:
 #인스턴스 생성 
 d = MyClass(10)
 d_copy = d
-del d_copy 
-del d
+# del d_copy 
+# del d  안지워도 됨 메모리 자동 관리하기 때문에
 
 
 
