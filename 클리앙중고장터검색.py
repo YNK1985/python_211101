@@ -24,7 +24,7 @@ for n in range(0,10):
 # </span>        
         
         #<span> tag 에서 필터링 attributes이 있는 것
-        list = soup.find_all('span', attrs={'data-role':'list-title-text'}) #태그 바꾸고
+        list = soup.find_all('span', attrs={'data-role':'list-title-text'}) #태그
 
         for item in list:
                 try:
